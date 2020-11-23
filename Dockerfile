@@ -1,5 +1,5 @@
-FROM jitsi/web:latest
-LABEL maintainer "bjoern <bjoern@strate.media>"
+FROM sarveshmrao/smr-meet:latest
+LABEL maintainer "SMR <me@sarveshmrao.in>"
 
 RUN apt-dpkg-wrap apt-get update && \
 	apt-dpkg-wrap apt-get install -y curl nano && \
